@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "regexeggutor"
+version = "0.1.0"
+description = ""
+authors = ["Brian Wo <45139213+brainwo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"discord.py" = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
